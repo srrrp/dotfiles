@@ -1,0 +1,35 @@
+command_timeout = 2000
+
+# Put the directory modules first, then everything else in the default order
+format = '${custom.dir_home}${custom.dir_other}$all'
+
+[buf]
+disabled = true
+
+[character]
+error_symbol = "[●](bold red)"
+success_symbol = "[●](bold green)"
+
+[directory]
+disabled = true
+
+# In ~ → [home]
+[custom.dir_home]
+when = '[ "$PWD" = "$HOME" ]'
+command = "echo '[home]'"
+format = '[$output]($style) '
+style = "bold cyan"
+
+# Anywhere else → ~/Downloads, /etc, etc.
+[custom.dir_other]
+when = '[ "$PWD" != "$HOME" ]'
+command = 'echo "$PWD" | sed "s|^$HOME|~|"'
+format = '[$output]($style) '
+style = "bold cyan"
+
+[git_branch]
+symbol = " "
+truncation_length = 18
+
+[package]
+disabled = true

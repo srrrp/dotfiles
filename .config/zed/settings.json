@@ -1,0 +1,61 @@
+{
+  "buffer_font_family": "Degular Mono",
+  "disable_ai": true,
+  "ui_font_size": 14,
+  "buffer_font_size": 14,
+  "theme": {
+    "mode": "system",
+    "light": "Carbonfox - blurred",
+    "dark": "Nordfox - blurred"
+  },
+  "format_on_save": "on",
+  "cursor_blink": false,
+  "minimap": { "show": "never" },
+  "scrollbar": {
+    "show": "auto",
+    "axes": { "horizontal": false, "vertical": true },
+  },
+  "gutter": {
+    "breakpoints": false,
+    "runnables": false,
+  },
+  "toolbar": {
+    "code_actions": false,
+  },
+  "colorize_brackets": false,
+
+  // ── Completions / suggestions ───────────────────────
+  "show_completions_on_input": false,
+  "completions": { "words": "disabled" },
+
+  // ── Tabs / panels ───────────────────────────────────
+  "tab_bar": { "show": true },
+  "tabs": {
+    "file_icons": false,
+    "git_status": false,
+    "show_diagnostics": "off",
+  },
+  "project_panel": {
+    "indent_size": 12,
+    "file_icons": false,
+    "git_status": false,
+    "show_diagnostics": "off",
+  },
+  "status_bar": { "experimental.show": false },
+  "title_bar": {
+    "show_sign_in": false,
+    "show_onboarding_banner": false,
+  },
+  "agent": { "button": false },
+
+  // ── Terminal ────────────────────────────────────────
+  "terminal": {
+    "shell": {
+      "program": "/usr/local/bin/fish",
+    },
+    "font_size": 13,
+    "font_weight": 500,
+    "detect_venv": "off",
+  },
+  "helix_mode": true,
+}

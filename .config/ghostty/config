@@ -1,0 +1,25 @@
+command = /usr/local/bin/fish
+theme = dark:Catppuccin Macchiato,light:Catppuccin Latte
+font-family = MonoLisa
+font-size = 13
+font-variation-bold = wght=500
+font-variation-bold-italic = wght=500
+adjust-cell-width = -1%
+
+
+cursor-style = block
+cursor-style-blink = false
+cursor-opacity = 0.8
+shell-integration-features = no-cursor
+
+macos-titlebar-style = hidden
+window-padding-x = 4
+window-padding-y = 2
+window-theme = auto
+
+background-opacity = 0.97
+background-blur-radius = 20
+
+confirm-close-surface = false
+mouse-hide-while-typing = true
+copy-on-select = clipboard

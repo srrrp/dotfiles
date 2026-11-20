@@ -1,0 +1,36 @@
+theme = "catppuccin_macchiato"
+
+[editor]
+bufferline = "always"
+auto-format = true
+completion-trigger-len = 0
+idle-timeout = 0
+
+[editor.soft-wrap]
+enable = true
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["version-control"]
+right = [
+  "diagnostics",
+  "file-type",
+  "selections",
+  "position",
+  "position-percentage",
+]
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+max-depth = 3
+
+[keys.normal]
+"#" = "toggle_comments"
+C-r = ":reload"
+
+# [keys.select]
+# ret = 'command_mode'
