@@ -5,7 +5,6 @@ set -g fish_greeting # disable the welcome message
 set -gx CLICOLOR 1
 set -gx BUN_INSTALL "$HOME/.bun"
 
-# Same resulting order as your zsh config (last one added ends up first)
 fish_add_path -g "$HOME/.local/bin"
 fish_add_path -g /usr/local/bin
 fish_add_path -g /opt/homebrew/bin
@@ -13,7 +12,6 @@ fish_add_path -g /opt/homebrew/sbin
 fish_add_path -g "$BUN_INSTALL/bin"
 fish_add_path -g "$HOME/.local/share/fnm"
 
-# Hardcoded instead of `brew --prefix` (faster startup; it's always this on Apple Silicon)
 set -gx LIBRARY_PATH $LIBRARY_PATH /opt/homebrew/lib
 
 # ── Aliases ─────────────────────────────────────────────
