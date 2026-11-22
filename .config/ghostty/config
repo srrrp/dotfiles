@@ -1,5 +1,5 @@
 command = /usr/local/bin/fish
-theme = dark:Catppuccin Macchiato,light:Catppuccin Latte
+theme = dark:Nordfox,light:Nord Light
 font-family = MonoLisa
 font-size = 13
 font-variation-bold = wght=500

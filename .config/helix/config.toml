@@ -1,4 +1,4 @@
-theme = "catppuccin_macchiato"
+theme = "nordglass"
 
 [editor]
 bufferline = "always"
@@ -8,6 +8,7 @@ idle-timeout = 0
 
 [editor.soft-wrap]
 enable = true
+wrap-indicator = ""
 
 [editor.statusline]
 left = ["mode", "spinner"]
@@ -31,6 +32,10 @@ max-depth = 3
 [keys.normal]
 "#" = "toggle_comments"
 C-r = ":reload"
+
+[keys.normal.Z]
+Z = ":write-quit"
+Q = ":quit!"
 
 # [keys.select]
 # ret = 'command_mode'

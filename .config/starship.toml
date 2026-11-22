@@ -6,8 +6,8 @@ format = '${custom.dir_home}${custom.dir_other}$all'
 disabled = true
 
 [character]
-error_symbol = "[●](bold red)"
-success_symbol = "[●](bold green)"
+success_symbol = "[➜](bold green)"
+error_symbol = "[✗](bold red)"
 
 [directory]
 disabled = true
@@ -16,13 +16,13 @@ disabled = true
 when = '[ "$PWD" = "$HOME" ]'
 command = "echo '[home]'"
 format = '[$output]($style) '
-style = "bold cyan"
+style = "bold blue"
 
 [custom.dir_other]
 when = '[ "$PWD" != "$HOME" ]'
 command = 'echo "$PWD" | sed "s|^$HOME|~|"'
 format = '[$output]($style) '
-style = "bold cyan"
+style = "bold blue"
 
 [git_branch]
 symbol = " "
