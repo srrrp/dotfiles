@@ -1,4 +1,4 @@
-theme = "nordglass"
+theme = "catppuccin_glass"
 
 [editor]
 bufferline = "always"

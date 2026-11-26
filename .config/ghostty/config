@@ -1,15 +1,16 @@
 command = /usr/local/bin/fish
-theme = dark:Nordfox,light:Nord Light
+theme = Catppuccin Macchiato
 font-family = MonoLisa
 font-size = 13
 font-variation-bold = wght=500
 font-variation-bold-italic = wght=500
-adjust-cell-width = -1%
+adjust-cell-width = -2%
+adjust-cell-height = 1%
 
 
 cursor-style = block
 cursor-style-blink = false
-cursor-opacity = 0.8
+cursor-opacity = 0.4
 shell-integration-features = no-cursor
 
 macos-titlebar-style = hidden
